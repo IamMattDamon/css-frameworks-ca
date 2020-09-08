@@ -1,10 +1,11 @@
 .carousel-indicators li {
     height: 30px;
-    color: $primary-color !important;
+    background-color: $white-color !important;
     margin-left: 0.5em;
     margin-right: 0.5em;
+    box-shadow: 0 3px 6px #000000;
 }
 
-.carousel-indicators li .active {
-    color: $accent-color !important;
+.carousel-indicators .active {
+    background-color: $accent-color !important;
 }

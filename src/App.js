@@ -7,7 +7,6 @@ import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
-import CarouselItem from "react-bootstrap/CarouselItem";
 import Home from "./components/home/Home";
 import News from "./components/news/News";
 import Contact from "./components/contact/Contact";
