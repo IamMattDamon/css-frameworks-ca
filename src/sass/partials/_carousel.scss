@@ -1,7 +1,10 @@
 .carousel-indicators li {
     height: 30px;
     color: $primary-color !important;
-    padding: 2em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.carousel-indicators li .active {
+    color: $accent-color !important;
 }
