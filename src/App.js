@@ -6,6 +6,8 @@ import Nav from "react-bootstrap/Nav";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
+import Carousel from "react-bootstrap/Carousel";
+import CarouselItem from "react-bootstrap/CarouselItem";
 import Home from "./components/home/Home";
 import News from "./components/news/News";
 import Contact from "./components/contact/Contact";
@@ -35,6 +37,30 @@ function App() {
         </Form>
         </Navbar.Collapse>
       </Navbar>
+
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="../images/carousel-1.jpg"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="../images/carousel-2.jpg"
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="../images/carousel-3.jpg"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
 
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
