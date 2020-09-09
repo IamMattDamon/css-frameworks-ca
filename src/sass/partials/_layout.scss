@@ -1,6 +1,16 @@
-body,
-html {
+html,
+body {
     height: 100%;
     background: radial-gradient($white-color, $light-color);
     color: $primary-color;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wrapper {
+    flex: 1 0 auto;
 }
