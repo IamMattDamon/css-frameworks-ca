@@ -1,0 +1,29 @@
+#tab-section .nav-tabs .nav-link {
+    width: fit-content;
+}
+
+#noanim-tab-example-tabpane-first {
+    background-color: $white-color !important;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+#tab-section a.nav-link.active {
+    color: $primary-color !important;
+}
+
+#tab-section a.nav-link {
+    color: $accent-color !important;
+    padding: .5rem 2rem !important;
+}
+
+#tab-section .nav-tabs {
+    border-bottom: none;
+}
+
+#tab-section .tab-content {
+    margin-top: -1px;
+    margin-left: 1px;
+}
+

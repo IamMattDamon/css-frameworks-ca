@@ -4,6 +4,7 @@ body {
     margin: 0;
     color: $primary-color;
     background: radial-gradient(#FFF, #E5E5E5) !important;
+    overflow-x: hidden;
 }
 
 #root {
@@ -14,5 +15,5 @@ body {
 
 .wrapper {
     flex: 1 0 auto;
-    min-height: calc(100vh - 90px);
+    min-height: calc(100vh - 80px);
 }

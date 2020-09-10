@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, NavLink, useRouteMatch, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import "./sass/style.scss";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -17,8 +17,8 @@ function App() {
     <Router>
     <div className="wrapper">
     <Container>
-        <Navbar expand="lg" className="navbar navbar-expand-lg">
-            <Navbar.Brand href="/" className="heading">The YAY Company</Navbar.Brand>
+        <Navbar expand="lg" className="navbar navbar-expand-lg py-3">
+            <Navbar.Brand href="/" className="heading mr-5">The YAY Company</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -33,7 +33,7 @@ function App() {
                         </NavLink>
                     </Nav>
                 <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                    <FormControl type="text" placeholder="Search" className="sm-2" />
                     <Button variant="outline-success">
                         Go
                     </Button>
