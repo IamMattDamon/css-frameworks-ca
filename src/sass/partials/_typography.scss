@@ -9,6 +9,11 @@ h1,
     font-weight: 700 !important;
 }
 
+h1 {
+    color: $accent-color !important;
+    font-weight: 400;
+}
+
 body {
     font-family: "Lato", sans-serif;
 }

@@ -1,10 +1,8 @@
 footer {
-    background-color: $light-color !important;
+    background-color: $white-color !important;
     color: $primary-color !important;
     flex-shrink: 0;
-    margin-top: 2rem;
 
-    
     @media (max-width: 991px) {
         .container-lg {
             padding: 0.5rem 1rem;

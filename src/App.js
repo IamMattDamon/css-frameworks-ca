@@ -13,8 +13,8 @@ import Contact from "./components/contact/Contact";
 
 function App() {
   return (
-    <Router>
     <>
+    <Router>
     <div className="wrapper">
     <Container>
         <Navbar expand="lg" className="navbar navbar-expand-lg">
@@ -54,6 +54,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      </div>
 
       <footer className="footer">
             <Container className="container-lg d-flex justify-content-between align-items-center flex-column flex-md-row">  
@@ -71,9 +72,8 @@ function App() {
                 <span className="d-none d-md-block">Copyright 2020</span>
             </Container>
         </footer>
-    </div>
-    </>
     </Router>
+    </>
   );
 }
 
