@@ -1,29 +1,31 @@
-#tab-section .nav-tabs .nav-link {
+.tab-content {
+    background: $white-color;
+    padding: 1em;
+    min-height: 250px;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: rgba(146, 146, 146, 0.25);
+    margin-top: -7px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item-show .nav-link {
+    color: $accent-color;
+    background-color: $white-color;
+    border-color: $white-color;
+    border-radius: 12px 12px 0 0;
+}
+
+.nav {
+    flex-wrap: nowrap !important;
+}
+
+.nav-tabs {
     width: fit-content;
 }
 
-#noanim-tab-example-tabpane-first {
-    background-color: $white-color !important;
-    padding-top: 15px;
-    padding-bottom: 50px;
-    border-radius: 5px;
+#uncontrolled-tab-example-tab-one,
+#uncontrolled-tab-example-tab-two,
+#uncontrolled-tab-example-tab-three {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
-
-#tab-section a.nav-link.active {
-    color: $primary-color !important;
-}
-
-#tab-section a.nav-link {
-    color: $accent-color !important;
-    padding: .5rem 2rem !important;
-}
-
-#tab-section .nav-tabs {
-    border-bottom: none;
-}
-
-#tab-section .tab-content {
-    margin-top: -1px;
-    margin-left: 1px;
-}
-
