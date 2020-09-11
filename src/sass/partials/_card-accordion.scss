@@ -15,5 +15,25 @@
     color: $accent-color !important;
 }
 
+span .accordion-image {
+    height: max-content;
+    width: 100%;
+}
 
+.tab-icons {
+    display: flex;
+    justify-content: center !important;
+    color: $dark-color !important;
+}
 
+span i.fa {
+    font-size: 30px !important;
+}
+
+.active-accordion.card-header {
+    border-bottom: 2px solid $accent-color;
+}
+
+.card-body {
+    background-color: #E5E5E5 !important;
+}

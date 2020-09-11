@@ -9,10 +9,14 @@
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item-show .nav-link {
-    color: $accent-color;
+    color: $primary-color !important;
     background-color: $white-color;
     border-color: $white-color;
     border-radius: 12px 12px 0 0;
+}
+
+.nav-tabs .nav-link:not(.active) {
+    color: $accent-color !important;
 }
 
 .nav {
@@ -29,3 +33,9 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+span .tab-image {
+    height: 150px;
+    width: auto;
+}
+

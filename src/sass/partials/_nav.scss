@@ -7,6 +7,21 @@ a.nav-link {
     color: $dark-color !important;
 }
 
-.container {
-    padding: 0 20px;
+.navbar-toggler {
+    border: none !important;
+}
+
+@media screen and (max-width: 991px) {
+        .form-inline {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .form-wrapper {
+            width: 100% !important;
+        }
+        .form-control {
+            width: 80% !important;
+        }
+
 }

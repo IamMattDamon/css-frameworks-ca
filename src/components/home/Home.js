@@ -39,7 +39,7 @@ function Home() {
         </Container>
 
         <Container>
-            <ContentAccordion />
+            <ContentAccordion className="d-md-none" />
             <div className="d-none d-md-block">
                 <ContentTabs />
             </div>

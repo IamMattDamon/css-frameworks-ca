@@ -16,11 +16,12 @@ function App() {
     <>
     <Router>
     <div className="wrapper">
-    <Container>
-        <Navbar expand="lg" className="navbar navbar-expand-lg py-3">
+    <Container className="nav-container">
+        <Navbar expand="lg" className="navbar navbar-expand-lg py-2">
             <Navbar.Brand href="/" className="heading mr-5">The YAY Company</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav" className="py-3">
+                    
                     <Nav className="mr-auto">
                         <NavLink exact to="/" className="nav-link px-5 px-lg-2">
                             Home
@@ -32,15 +33,17 @@ function App() {
                             Contact
                         </NavLink>
                     </Nav>
-                <Form inline>
-                    <FormControl type="text" placeholder="Search" className="sm-2" />
-                    <Button variant="outline-success">
-                        Go
-                    </Button>
-                </Form>
-            </Navbar.Collapse>
+                
+                    <Form inline>
+                        <FormControl type="text" placeholder="Search" className="sm-2" />
+                        <Button variant="outline-success">
+                            Go
+                        </Button>
+                    </Form>
+
+                </Navbar.Collapse>
         </Navbar>
-    </Container>
+      </Container>
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>

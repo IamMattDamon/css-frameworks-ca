@@ -10,3 +10,7 @@
 .carousel-indicators .active {
     background-color: $accent-color !important;
 }
+
+.carousel-inner img {
+    min-height: 225px;
+}
