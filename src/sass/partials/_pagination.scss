@@ -1,0 +1,10 @@
+.page-item.active .page-link {
+    background-color: $accent-color !important;
+    border-color: $accent-color !important;
+    color: $white-color !important;
+}
+
+.page-link {
+    border: 1px solid $accent-color !important;
+    color: $accent-color !important;
+}
