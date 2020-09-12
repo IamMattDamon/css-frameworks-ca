@@ -46,7 +46,7 @@ function ContentAccordion() {
                                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                             </span>
                             <span className="tab-image">
-                                <img src="../images/old-television-2.jpg" className="tab-image" alt="old television"></img>
+                                <img src="../images/old-television-2.jpg" className="accordion-image" alt="old television"></img>
                             </span>
                             <div className="flex-lg-row pt-4 pb-2 tab-icons">
                                     <span className="mr-4">SHARE</span>
@@ -59,7 +59,7 @@ function ContentAccordion() {
             </Card>
             <Card>
                 <Card.Header>
-                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                    <Accordion.Toggle as={Button} variant="link" eventKey="2">
                         Third
                     </Accordion.Toggle>
                 </Card.Header>
@@ -70,7 +70,7 @@ function ContentAccordion() {
                                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                             </span>
                             <span className="tab-image">
-                                <img src="../images/old-television-3.jpg" className="tab-image" alt="old television"></img>
+                                <img src="../images/old-television-3.jpg" className="accordion-image" alt="old television"></img>
                             </span>
                             <div className="flex-lg-row pt-4 pb-2 tab-icons">
                                     <span className="mr-4">SHARE</span>

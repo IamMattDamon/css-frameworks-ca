@@ -51,7 +51,8 @@ span .tab-image {
     margin-right: 0 !important;
 }
 
-.col-lg-9.col span .tab-paragraph {
-    max-width: 80% !important;
+@media screen and (max-width: 992px) {
+        .col-md-6 {
+        margin-left: 1rem !important;
+    }
 }
-
