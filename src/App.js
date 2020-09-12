@@ -16,6 +16,7 @@ function App() {
     <>
     <Router>
     <div className="wrapper">
+    <div className="nav-wrapper">
     <Container className="nav-container">
         <Navbar expand="lg" className="navbar navbar-expand-lg py-2">
             <Navbar.Brand href="/" className="heading mr-5">The YAY Company</Navbar.Brand>
@@ -44,6 +45,7 @@ function App() {
                 </Navbar.Collapse>
         </Navbar>
       </Container>
+      </div>
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>

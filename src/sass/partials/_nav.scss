@@ -11,6 +11,10 @@ a.nav-link {
     border: none !important;
 }
 
+.nav-wrapper {
+    background-color: $light-color !important;
+}
+
 @media screen and (max-width: 991px) {
         .form-inline {
             display: flex;
@@ -23,5 +27,5 @@ a.nav-link {
         .form-control {
             width: 80% !important;
         }
-
+        
 }
