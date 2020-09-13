@@ -1,9 +1,10 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Pagination from "react-bootstrap/Pagination";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Pagination from "react-bootstrap/Pagination";
 
 
 function News() {
@@ -22,9 +23,9 @@ function News() {
             </div>
             
             <Container className="mt-2">
-                <Row className="ml-1 justify-content-between">
-                    
-                <Card style={{ width: '14rem' }} className="mt-3">
+                <Row className="justify-content-between">
+                    <Col className="">
+                    <Card className="mt-3" id="news-card">
                         <Card.Img variant="top" src="images/old-television-3.jpg" rounded />
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
@@ -34,8 +35,10 @@ function News() {
                         <Button variant="primary" size="sm" block>MORE</Button>
                     </Card.Body>
                     </Card>
+                    </Col>
                     
-                    <Card style={{ width: '14rem' }} className="mt-3">
+                    <Col>
+                    <Card className="mt-3" id="news-card">
                         <Card.Img variant="top" src="images/card-camera-image.jpg" rounded />
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
@@ -45,8 +48,10 @@ function News() {
                         <Button variant="primary" size="sm" block>MORE</Button>
                     </Card.Body>
                     </Card>
+                    </Col>
 
-                    <Card style={{ width: '14rem' }} className="mt-3">
+                    <Col>
+                    <Card className="mt-3" id="news-card">
                         <Card.Img variant="top" src="images/old-television-2.jpg" rounded />
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
@@ -56,8 +61,10 @@ function News() {
                         <Button variant="primary" size="sm" block>MORE</Button>
                     </Card.Body>
                     </Card>
+                    </Col>
 
-                    <Card style={{ width: '14rem' }} className="mt-3">
+                    <Col>
+                    <Card className="mt-3" id="news-card">
                         <Card.Img variant="top" src="images/vintage-camera.jpg" rounded />
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
@@ -69,11 +76,12 @@ function News() {
                         </Button>
                     </Card.Body>
                     </Card>
+                    </Col>
+                
+                <div className="w-100"></div>
 
-                </Row>
-
-                <Row className="ml-1 justify-content-between">
-                    <Card style={{ width: '14rem' }} className="mt-4">
+                    <Col>
+                    <Card className="mt-4" id="news-card">
                         <Card.Img variant="top" src="images/card-tv-image.jpg" rounded />
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
@@ -83,8 +91,10 @@ function News() {
                         <Button variant="primary" size="sm" block>MORE</Button>
                     </Card.Body>
                     </Card>
+                    </Col>
 
-                    <Card style={{ width: '14rem' }} className="mt-4">
+                    <Col>
+                    <Card className="mt-4" id="news-card">
                         <Card.Img variant="top" src="images/polaroid-camera.jpg" rounded />
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
@@ -94,8 +104,10 @@ function News() {
                         <Button variant="primary" size="sm" block>MORE</Button>
                     </Card.Body>
                     </Card>
+                    </Col>
 
-                    <Card style={{ width: '14rem' }} className="mt-4">
+                    <Col>
+                    <Card className="mt-4" id="news-card">
                         <Card.Img variant="top" src="images/cinema-projector.jpg" rounded />
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
@@ -105,8 +117,10 @@ function News() {
                         <Button variant="primary" size="sm" block>MORE</Button>
                     </Card.Body>
                     </Card>
+                    </Col>
 
-                    <Card style={{ width: '14rem' }} className="mt-4">
+                    <Col>
+                    <Card className="mt-4" id="news-card">
                         <Card.Img variant="top" src="images/vinyl-player.jpg" rounded />
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
@@ -116,6 +130,8 @@ function News() {
                         <Button variant="primary" size="sm" block>MORE</Button>
                     </Card.Body>
                     </Card>
+                    </Col>
+                    <div className="w-100"></div>
                 </Row>
             </Container>
 

@@ -1,37 +1,15 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import ContentTabs from "./ContentTabs";
 import ContentAccordion from "./ContentAccordion";
+import ContentCarousel from "./Carousel";
 
 
 function Home() {
     return (
     <>
       <main>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="../images/carousel-1.jpg"
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="../images/carousel-2.jpg"
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="../images/carousel-3.jpg"
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+        <ContentCarousel />
 
         <Container className="container-lg">
             <h1 className="py-4">We do YAY things</h1>
