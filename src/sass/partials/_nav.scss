@@ -24,8 +24,11 @@ a.nav-link {
         .form-wrapper {
             width: 100% !important;
         }
-        .form-control {
+        .sm-2.form-control {
             width: 80% !important;
+            margin-top: 1.5rem;
         }
-        
+        .btn.btn-outline-success {
+            margin-top: 1.5rem;
+        }
 }

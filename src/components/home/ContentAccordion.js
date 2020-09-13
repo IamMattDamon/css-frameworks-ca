@@ -33,6 +33,7 @@ function ContentAccordion() {
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>
+            
             <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
@@ -40,7 +41,7 @@ function ContentAccordion() {
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
-                    <Card.Body>
+                    <Card.Body className="home-accordion-background">
                         <Container className="flex-md-column justify-content-center">
                             <span className="tab-paragraph">
                                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
@@ -57,6 +58,7 @@ function ContentAccordion() {
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>
+            
             <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
@@ -64,7 +66,7 @@ function ContentAccordion() {
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body>
+                    <Card.Body className="home-accordion-background">
                         <Container className="flex-md-column justify-content-center">
                             <span className="tab-paragraph">
                                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
