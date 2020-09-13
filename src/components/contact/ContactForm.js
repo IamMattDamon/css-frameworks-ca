@@ -6,7 +6,7 @@ function ContactForm() {
     return (
         <>
             <Form id="formContactBackground">
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group controlId="formBasicEmail" className="mt-4">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" />
                 </Form.Group>
@@ -27,7 +27,7 @@ function ContactForm() {
                 </Form.Group>
 
                 <Form.Check label="Allow us to sett your personal details to whoever we want" className="accent-checkbox" />
-                <Button variant="primary" size="lg" block className="mt-3 mb-3">SUBMIT</Button>
+                <Button variant="primary" size="lg" block className="mt-3 mb-4">SUBMIT</Button>
             </Form>
         </>
     );

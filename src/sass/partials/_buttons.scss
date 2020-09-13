@@ -13,10 +13,10 @@
     background-color: lighten($accent-color, $amount: 7%) !important;
 }
 
-.mt-3.mb-3.btn.btn-primary.btn-block.btn-lg {
+.mt-3.mb-4.btn.btn-primary.btn-block.btn-lg {
     background-color: $primary-color !important;
 }
 
-.mt-3.mb-3.btn.btn-primary.btn-block.btn-lg:hover {
+.mt-3.mb-4.btn.btn-primary.btn-block.btn-lg:hover {
     background-color: $secondary-color !important;
 }
