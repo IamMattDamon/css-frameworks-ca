@@ -1,7 +1,7 @@
 import React from "react";
 import Pagination from "react-bootstrap/Pagination";
 
-function Pagination () {
+function ContentPagination () {
     return (
         <>
         <Pagination className="ml-3">
@@ -14,4 +14,4 @@ function Pagination () {
     );
 }
 
-export default Pagination; 
+export default ContentPagination; 

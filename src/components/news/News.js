@@ -1,10 +1,8 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Pagination from "react-bootstrap/Pagination";
+import ContentPagination from "./ContentPagination";
+import ContentCard from "./ContentCard";
 
 
 function News() {
@@ -14,134 +12,17 @@ function News() {
             <h1 className="py-4 ml-3">News</h1>
             
             <div>
-            <Pagination className="ml-3">
-                <Pagination.Item active>{1}</Pagination.Item>
-                <Pagination.Item>{2}</Pagination.Item>
-                <Pagination.Item>{3}</Pagination.Item>
-                <Pagination.Item>{4}</Pagination.Item>    
-            </Pagination>
+            <ContentPagination />
             </div>
             
             <Container className="mt-2">
                 <Row className="justify-content-between">
-                    <Col className="">
-                    <Card className="mt-3" id="news-card">
-                        <Card.Img variant="top" src="images/old-television-3.jpg" rounded />
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                            Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" size="sm" block>MORE</Button>
-                    </Card.Body>
-                    </Card>
-                    </Col>
-                    
-                    <Col>
-                    <Card className="mt-3" id="news-card">
-                        <Card.Img variant="top" src="images/card-camera-image.jpg" rounded />
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                            Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" size="sm" block>MORE</Button>
-                    </Card.Body>
-                    </Card>
-                    </Col>
-
-                    <Col>
-                    <Card className="mt-3" id="news-card">
-                        <Card.Img variant="top" src="images/old-television-2.jpg" rounded />
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                            Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" size="sm" block>MORE</Button>
-                    </Card.Body>
-                    </Card>
-                    </Col>
-
-                    <Col>
-                    <Card className="mt-3" id="news-card">
-                        <Card.Img variant="top" src="images/vintage-camera.jpg" rounded />
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                            Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" size="sm" block>
-                            MORE
-                        </Button>
-                    </Card.Body>
-                    </Card>
-                    </Col>
-                
-                <div className="w-100"></div>
-
-                    <Col>
-                    <Card className="mt-4" id="news-card">
-                        <Card.Img variant="top" src="images/card-tv-image.jpg" rounded />
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                            Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" size="sm" block>MORE</Button>
-                    </Card.Body>
-                    </Card>
-                    </Col>
-
-                    <Col>
-                    <Card className="mt-4" id="news-card">
-                        <Card.Img variant="top" src="images/polaroid-camera.jpg" rounded />
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                            Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" size="sm" block>MORE</Button>
-                    </Card.Body>
-                    </Card>
-                    </Col>
-
-                    <Col>
-                    <Card className="mt-4" id="news-card">
-                        <Card.Img variant="top" src="images/cinema-projector.jpg" rounded />
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                            Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" size="sm" block>MORE</Button>
-                    </Card.Body>
-                    </Card>
-                    </Col>
-
-                    <Col>
-                    <Card className="mt-4" id="news-card">
-                        <Card.Img variant="top" src="images/vinyl-player.jpg" rounded />
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                            Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" size="sm" block>MORE</Button>
-                    </Card.Body>
-                    </Card>
-                    </Col>
-                    <div className="w-100"></div>
+                    <ContentCard />
                 </Row>
             </Container>
 
-            <div>
-            <Pagination className="ml-3 mt-5">
-                <Pagination.Item active>{1}</Pagination.Item>
-                <Pagination.Item>{2}</Pagination.Item>
-                <Pagination.Item>{3}</Pagination.Item>
-                <Pagination.Item>{4}</Pagination.Item>    
-            </Pagination>
+            <div className="mt-4">
+            <ContentPagination />
             </div>
             
         </Container>
