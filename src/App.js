@@ -10,6 +10,7 @@ import Button from "react-bootstrap/Button";
 import Home from "./components/home/Home";
 import News from "./components/news/News";
 import Contact from "./components/contact/Contact";
+import ContentFooter from "./ContentFooter";
 
 function App() {
   return (
@@ -57,23 +58,9 @@ function App() {
         </Route>
       </Switch>
       </div>
+      
+      <ContentFooter />
 
-      <footer className="footer">
-            <Container className="container-lg d-flex justify-content-between align-items-center flex-column flex-md-row">  
-                <span className="py-4 py-md-2">
-                  <i className="fa fa-vimeo mr-2" aria-hidden="true"></i>
-                  <i className="fa fa-youtube-play ml-2" aria-hidden="true"></i>
-                </span>
-                
-                <div className="d-flex d-block d-md-none flex-row w-100 justify-content-between">
-                  <span>hello@yay.com</span>
-                  <span className="ml-auto">Copyright 2020</span>
-                </div>
-                
-                <span className="d-none d-md-block">hello@yay.com</span>
-                <span className="d-none d-md-block">Copyright 2020</span>
-            </Container>
-        </footer>
     </Router>
     </>
   );
