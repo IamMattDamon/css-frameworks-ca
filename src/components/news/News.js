@@ -127,7 +127,7 @@ function News() {
                 <Pagination.Item>{4}</Pagination.Item>    
             </Pagination>
             </div>
-
+            
         </Container>
         </>
 );
