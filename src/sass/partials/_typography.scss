@@ -17,3 +17,30 @@ h1 {
 body {
     font-family: "Lato", sans-serif;
 }
+
+@media screen and (max-width: 400px) {
+    .header-h1 {
+        font-size: 24px !important;
+    }
+    .contact-detail-text {
+        font-size: 16px !important;
+    }
+    .contact-icons {
+        font-size: 24px !important;
+    }
+    .form-label {
+        font-size: 14px !important;
+    }
+    .form-check-label {
+        font-size: 14px !important;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        font-size: 0.8rem !important;
+    }
+    .paragraphs {
+        font-size: 14px !important;
+    }
+    span .accordion-image {
+        height: auto !important;
+    }
+}

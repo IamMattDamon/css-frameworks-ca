@@ -22,7 +22,7 @@ function ContentAccordion() {
                     <Card.Body className="home-accordion-card">
                         <Container className="flex-md-column justify-content-center">
                             <span className="tab-paragraph">
-                                <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+                                <p className="paragraphs">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                             </span>
                             <span className="tab-image">
                                 <img src="../images/old-television-1.jpg" className="accordion-image" alt="old television"></img>
@@ -47,7 +47,7 @@ function ContentAccordion() {
                     <Card.Body className="home-accordion-background home-accordion-card">
                         <Container className="flex-md-column justify-content-center">
                             <span className="tab-paragraph">
-                                <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+                                <p className="paragraphs">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                             </span>
                             <span className="tab-image">
                                 <img src="../images/old-television-2.jpg" className="accordion-image" alt="old television"></img>
@@ -72,7 +72,7 @@ function ContentAccordion() {
                     <Card.Body className="home-accordion-background home-accordion-card">
                         <Container className="flex-md-column">
                             <span className="tab-paragraph">
-                                <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
+                                <p className="paragraphs">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
                             </span>
                             <span className="tab-image">
                                 <img src="../images/old-television-3.jpg" className="accordion-image" alt="old television"></img>
