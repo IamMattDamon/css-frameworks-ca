@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import ContactForm from "./ContactForm";
 import ContactDetails from "./ContactDetails";
 
@@ -7,21 +9,17 @@ function Contact() {
     return (
         <>
         <Container className="mt-5 container-lg">
-            <h1 className="d-none d-md-block py-4">Submit your details</h1>
-                <div className="d-flex flex-column-reverse flex-md-row">
-                    <div className="col-12 col-md-6">
-                        <div>
-                            <h1 className="d-block d-md-none py-4">Submit your details</h1>
-                        </div>
-                        <ContactForm />
-                        
-                    </div>
-
-                    <div className="col-12 col-md-6 contact-padding ml-5 sm-mb-2">
-                        <ContactDetails />
-                    </div>
-                </div>
-
+            <Row>
+            <h1 className="d-md-block py-4">Submit your details</h1>
+            </Row>
+            <Row className="d-flex">
+                <Col lg={6} md={12} sm={12} className="order-sm-1 order-lg-1">
+                    <ContactForm />
+                </Col>
+                <Col lg={6} md={12} sm={12} className="order-sm-1 order-lg-1 mt-sm-5">
+                    <ContactDetails />
+                </Col>
+            </Row>
             </Container>
         </>
 );

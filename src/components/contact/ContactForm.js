@@ -26,8 +26,8 @@ function ContactForm() {
                     <Form.Control type="text" />
                 </Form.Group>
 
-                <Form.Check label="Allow us to sett your personal details to whoever we want" className="accent-checkbox" />
-                <Button variant="primary" size="lg" block className="mt-3 mb-4">SUBMIT</Button>
+                <Form.Check label="Receive copy to your email address once submitted" className="accent-checkbox" />
+                <Button size="lg" block className="mt-3 mb-4 btn-cta">SUBMIT</Button>
             </Form>
         </>
     );

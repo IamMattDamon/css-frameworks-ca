@@ -4,7 +4,7 @@ import Pagination from "react-bootstrap/Pagination";
 function ContentPagination () {
     return (
         <>
-        <Pagination className="ml-3">
+        <Pagination>
             <Pagination.Item active>{1}</Pagination.Item>
             <Pagination.Item>{2}</Pagination.Item>
             <Pagination.Item>{3}</Pagination.Item>

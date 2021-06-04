@@ -10,13 +10,14 @@
 }
 
 .btn.btn-primary.btn-block.btn-sm:hover {
-    background-color: lighten($accent-color, $amount: 7%) !important;
+    background-color: lighten($accent-color, $amount: 10%) !important;
 }
 
-.mt-3.mb-4.btn.btn-primary.btn-block.btn-lg {
-    background-color: $primary-color !important;
+.btn-cta {
+    background-color: $accent-color !important;
 }
 
-.mt-3.mb-4.btn.btn-primary.btn-block.btn-lg:hover {
-    background-color: $secondary-color !important;
+.btn-cta:hover {
+    background-color: lighten($accent-color, $amount: 10%) !important;
+    transition: 0.3s ease-in;
 }

@@ -1,29 +1,32 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import { FiMail } from "react-icons/fi";
+import { GiSmartphone } from "react-icons/gi";
+import { ImLocation2 } from "react-icons/im";
 
 function ContactDetails() {
     return (
         <>
-            <div className="pb-3">
-                <span className="flex-row">
-                    <i className="fa fa-envelope mr-5"></i>
-                    hello@yay.com
-                        </span>
+        <Container>
+        <div className="d-flex align-items-center">
+            <FiMail className="contact-icons"/>
+            <span className="ml-3 contact-detail-text">hello@yaycompany.com</span>
+        </div>
+        <div className="d-flex align-items-center mt-3">
+            <GiSmartphone className="contact-icons"/>
+            <span className="ml-3 contact-detail-text">555&nbsp;55&nbsp;555</span>
+        </div>
+        <div className="row rm-margin-left d-flex mt-3"> 
+            <ImLocation2 className="contact-icons"/>
+            <div className="d-flex flex-column">
+            <span className="ml-3 contact-detail-text">555 Barnacle Street</span>
+            <span className="ml-3 contact-detail-text">HA9 9NG</span>
+            <span className="ml-3 contact-detail-text">London</span>
+            <span className="ml-3 contact-detail-text">United Kingdom</span>
             </div>
+        </div>
 
-            <div className="pb-3">
-                <span className="flex-row">
-                    <i className="fa fa-phone mr-5"></i>
-                            123 456 7890
-                </span>
-            </div>
-
-            <div className="flex-row">
-                <i className="fa fa-map-marker mr-5"></i>
-                <span>123</span><br />
-                <span className="address-margin">Some Street</span><br />
-                <span className="address-margin">Some City</span><br />
-                <span className="address-margin">10000</span><br />
-            </div>
+        </Container>
         </>
     );
 }

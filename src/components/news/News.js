@@ -9,7 +9,7 @@ function News() {
     return (
         <>
         <Container>
-            <h1 className="py-4 ml-3">News</h1>
+            <h1 className="py-4 ml-3 mt-5">News</h1>
             
             <Container className="mt-2">
                 <Row className="justify-content-between">
