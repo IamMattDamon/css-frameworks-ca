@@ -1,14 +1,23 @@
 .nav-link.active {
-    background-color: $white-color !important;
+    color: $accent-color !important;
     width: 100%;
+}
+.nav-link.active:hover {
+    color: $accent-color !important;
 }
 
 a.nav-link {
     color: $dark-color !important;
 }
 
-.navbar-toggler {
+a.nav-link:hover {
+    color: $primary-color !important;
+    transition: 0.3s ease-in;
+}
+
+.navbar-light .navbar-toggler {
     border: none !important;
+    border-color: $accent-color !important;
 }
 
 .nav-wrapper {
@@ -19,7 +28,6 @@ a.nav-link {
         .form-inline {
             display: flex;
             flex-direction: row;
-            justify-content: center;
         }
         .form-wrapper {
             width: 100% !important;
@@ -31,4 +39,15 @@ a.nav-link {
         .btn.btn-outline-success {
             margin-top: 1.5rem;
         }
+}
+
+@media screen and (max-width: 400px) {
+    .heading a {
+        margin-right: 1rem !important;
+        font-size: 1rem !important;
+    }
+    .navbar-toggler-icon {
+        width: 1.25em;
+        height: 1.25em;
+    }
 }

@@ -11,10 +11,6 @@ function News() {
         <Container>
             <h1 className="py-4 ml-3">News</h1>
             
-            <div>
-            <ContentPagination />
-            </div>
-            
             <Container className="mt-2">
                 <Row className="justify-content-between">
                     <ContentCard />

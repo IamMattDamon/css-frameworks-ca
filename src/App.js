@@ -20,17 +20,17 @@ function App() {
     <div className="nav-wrapper">
     <Container className="nav-container">
         <Navbar expand="lg" className="navbar navbar-expand-lg py-2">
-            <Navbar.Brand href="/" className="heading mr-5">The YAY Company</Navbar.Brand>
+            <Navbar.Brand href="/" className="heading">The YAY Company</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="py-3">
                     <Nav className="mr-auto">
-                        <NavLink exact to="/" className="nav-link px-5 px-lg-2">
+                        <NavLink exact to="/" className="nav-link px-lg-2">
                             Home
                         </NavLink>
-                        <NavLink to="/news" className="nav-link px-5 px-lg-2">
+                        <NavLink to="/news" className="nav-link px-lg-2">
                             News
                         </NavLink>
-                        <NavLink to="/contact" className="nav-link px-5 px-lg-2">
+                        <NavLink to="/contact" className="nav-link px-lg-2">
                             Contact
                         </NavLink>
                     </Nav>
